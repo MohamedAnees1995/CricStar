@@ -1,10 +1,13 @@
 Hotel Bookings Exploratory Data Analysis
+
 Objective
+
 We are provided with a hotel bookings dataset.
 
-Out main objective is perform EDA on the given dataset and draw useful conclusions about general trends in hotel bookings and how factors governing hotel bookings interact with each other.
+Our main objective is to perform EDA on the given dataset and draw useful conclusions about general trends in hotel bookings and how factors governing hotel bookings interact with each other.
 
 Dataset
+
 We are given a hotel bookings dataset. This dataset contains booking information for a city hotel and a resort hotel. It contains the following features.
 
 - hotel: Name of hotel ( City or Resort)
@@ -47,18 +50,27 @@ Data Cleaning and Feature Engineering
 All duplicate rows were dropped.
 
 (2) Handling null values
+
 Null values in columns company and agent were replaced by 0.
 Null values in column country were replaced by 'others'.
 Null values in column children were replaced by the mean of the column.
+
 (3) Converting columns to appropriate data types
+
 Changed data type of children, company, agent to int type.
 Changed data type of reservation_status_date to date type.
+
 (4) Removing outliers
+
 One outlier was found in the adr column. Simply dropped it.
+
 (5) Creating new columns
+
 Created new column total_stay by adding stays_in_weekend_nights+stays_in_week_nights.
 Created new column total_people by adding adults+children+babies.
+
 Exploratory Data Analysis
+
 Performed EDA and tried answering the following questions:
 
  Q1) Which agent makes the most no. of bookings?
@@ -121,7 +133,9 @@ We tried to answer following questions
  11.) Not getting same room do affects the adr, people who didn't got same room have paid a little lower adr. 
  12.) Arrivals in hotels increases at weekends and also the avg adr tends to go up as month ends. 
  13.)Moslty bookings are done by couples(bookings have two adults.)
+ 
 Conclusion
+
 (1) Around 60% bookings are for City hotel and 40% bookings are for Resort hotel, therefore City Hotel is busier than Resort hotel. Also the overall adr of City hotel is slightly higher than Resort hotel.
 (2) Mostly guests stay for less than 5 days in hotel and for longer stays Resort hotel is preferred.
 (3) Both hotels have significantly higher booking cancellation rates and very few guests less than 3 % return for another booking in City hotel. 5% guests return for stay in Resort hotel.
@@ -138,7 +152,9 @@ Conclusion
 (14) For customers, generally the longer stays (more than 15 days) can result in better deals in terms of low adr.
 
 And many more conclusions.
+
 Challenges
+
 (1) There was a lot of duplicate data.
 (2) Data was present in wrong datatype format.
 (3) Choosing appropriate visualization techniques to use was difficult.
