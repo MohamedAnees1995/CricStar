@@ -26,7 +26,6 @@ How long do people stay at the hotels?
 
 Which hotel seems to make more revenue?
 
-Which hotel has a higher lead time?
 
 What is preferred stay length in each hotel?
 
@@ -34,15 +33,6 @@ Which hotel has higher bookings cancellation rate?
 
 Which hotel has a high chance that its customer will return for another stay?
 
-Which channel is mostly used forthe early booking of hotels?
-
-Which channel has a longer average waiting time?
-
-Which distribution channel brings betterrevenue-generatingg deals for hotels?
-
-Which significant distribution channel has the highest cancellation percentage?
-
-Does a longer waiting period or longer lead time causes the cancellation of bookings?
 
 Whether not getting allotted the same room type as demand is the main cause of cancellation for bookings?
 
